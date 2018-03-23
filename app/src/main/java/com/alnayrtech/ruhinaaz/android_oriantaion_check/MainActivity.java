@@ -14,11 +14,11 @@ public class MainActivity extends AppCompatActivity {
 
         int orientation = this.getResources().getConfiguration().orientation;
         if (orientation == Configuration.ORIENTATION_PORTRAIT) {
-            //code for portrait mode
+
             Toast.makeText(MainActivity.this,"Oriatation portrait",Toast.LENGTH_LONG).show();
         } else {
 
-            Toast.makeText(MainActivity.this,"Oriatation landscapt",Toast.LENGTH_LONG).show();
+           // Toast.makeText(MainActivity.this,"Oriatation landscapt",Toast.LENGTH_LONG).show();
             //code for landscape mode
         }
     }
